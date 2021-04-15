@@ -28,8 +28,15 @@ public class Question implements Serializable {
     private String choice3;
     private String choice4;
     private int answer;
-    
 
+    public String getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+    
     public String getChoice1() {
         return choice1;
     }

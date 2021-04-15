@@ -1,2 +1,14 @@
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\ejb\ManageQuestionsBean.java
 C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\JAXRSConfiguration.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\entity\Question.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\EditQuestionFormServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\site\quizsite\common\QuestionDetails.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\EndQuizServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\QuizServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\ListQuestionsToEditServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\NewQuizServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\DeleteQuestionServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\QuestionsOperationsMenuServlet.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\ejb\MainQuizBean.java
+C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\servlets\AddNewQuestionServlet.java
 C:\Users\Alex\Documents\NetBeansProjects\QuizSite\src\main\java\com\quiz\quizsite\resources\JavaEE8Resource.java

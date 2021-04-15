@@ -1,2 +1,14 @@
+com\quiz\quizsite\servlets\ListQuestionsToEditServlet.class
+com\quiz\quizsite\entity\Question.class
+com\quiz\quizsite\servlets\QuizServlet.class
+com\quiz\quizsite\servlets\QuestionsOperationsMenuServlet.class
 com\quiz\quizsite\JAXRSConfiguration.class
+com\quiz\quizsite\servlets\EditQuestionFormServlet.class
+com\quiz\quizsite\servlets\EndQuizServlet.class
+com\quiz\quizsite\ejb\ManageQuestionsBean.class
+com\quiz\quizsite\servlets\NewQuizServlet.class
+com\quiz\quizsite\ejb\MainQuizBean.class
+com\quiz\quizsite\servlets\AddNewQuestionServlet.class
+com\quiz\quizsite\servlets\DeleteQuestionServlet.class
+com\site\quizsite\common\QuestionDetails.class
 com\quiz\quizsite\resources\JavaEE8Resource.class
