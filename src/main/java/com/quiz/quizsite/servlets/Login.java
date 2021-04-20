@@ -5,9 +5,7 @@
  */
 package com.quiz.quizsite.servlets;
 
-import com.quiz.quizsite.ejb.MainQuizBean;
 import java.io.IOException;
-import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,12 +16,10 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Alex
  */
+@WebServlet(name = "Login", urlPatterns = {"/Login"})
+public class Login extends HttpServlet {
 
-@WebServlet(name = "EndQuizServlet", urlPatterns = {"/EndQuizServlet"})
-public class EndQuizServlet extends HttpServlet {
-
-   @Inject
-   MainQuizBean mainQuizBean;
+    
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
@@ -37,10 +33,7 @@ public class EndQuizServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        request.setAttribute("finalScore", mainQuizBean.getCorrectAnswers() );
-        request.setAttribute("numberOfQuestions", mainQuizBean.getNumberOfQuestions());
-        request.getRequestDispatcher("/WEB-INF/pages/endPage.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(request, response);
     }
 
     /**
@@ -54,7 +47,8 @@ public class EndQuizServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+        request.setAttribute("message","Username or password incorrect");
+        request.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(request, response);
     }
 
     /**

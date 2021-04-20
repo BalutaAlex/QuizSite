@@ -7,8 +7,11 @@ package com.quiz.quizsite.servlets;
 
 import com.quiz.quizsite.ejb.ManageQuestionsBean;
 import java.io.IOException;
+import javax.annotation.security.DeclareRoles;
 import javax.inject.Inject;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.HttpConstraint;
+import javax.servlet.annotation.ServletSecurity;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +21,16 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Alex
  */
+
+@DeclareRoles({"AdminRole"})
+@ServletSecurity
+        (
+            value=@HttpConstraint
+            (
+            rolesAllowed={"AdminRole"}
+            )
+          
+        )
 @WebServlet(name = "AddNewQuestionServlet", urlPatterns = {"/AddNewQuestionServlet"})
 public class AddNewQuestionServlet extends HttpServlet {
 
@@ -59,8 +72,8 @@ public class AddNewQuestionServlet extends HttpServlet {
         int answer = Integer.parseInt(request.getParameter("answer"));
         
         manageQuestionBean.addQuestion(question, choice1, choice2, choice3, choice4, answer);
-        
-        response.sendRedirect(request.getContextPath());
+               
+        request.getRequestDispatcher("/WEB-INF/pages/addConfirmation.jsp").forward(request, response);
         
     }
 

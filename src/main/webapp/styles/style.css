@@ -199,6 +199,10 @@ select{
     font-size: 1.8rem;
 }
 
+#green-text{
+    color:green;
+}
+
 @media screen and (max-width:768px){
     .add-newQuestion-form{
         min-width: 40rem;

@@ -7,6 +7,7 @@
             <a href="${pageContext.request.contextPath}/AddNewQuestionServlet" class="btn">Adauga o intrebare noua</a>         
             <a href="${pageContext.request.contextPath}/ListQuestionsToEditServlet" class="btn">Editeaza o intrebare</a>
             <a href="${pageContext.request.contextPath}/DeleteQuestionServlet" class="btn">Sterge o intrebare</a>
+            <a href="${pageContext.request.contextPath}/Logout" class="btn">Logout</a>
             <a href="${pageContext.request.contextPath}" class="btn">Pagina principala</a>
         </div>
     </div>

@@ -8,7 +8,10 @@ com\quiz\quizsite\servlets\EndQuizServlet.class
 com\quiz\quizsite\ejb\ManageQuestionsBean.class
 com\quiz\quizsite\servlets\NewQuizServlet.class
 com\quiz\quizsite\ejb\MainQuizBean.class
+com\quiz\quizsite\servlets\Logout.class
+com\quiz\quizsite\entity\Admins.class
 com\quiz\quizsite\servlets\AddNewQuestionServlet.class
 com\quiz\quizsite\servlets\DeleteQuestionServlet.class
+com\quiz\quizsite\servlets\Login.class
 com\site\quizsite\common\QuestionDetails.class
 com\quiz\quizsite\resources\JavaEE8Resource.class
